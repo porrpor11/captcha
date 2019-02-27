@@ -15,4 +15,17 @@ public class CaptchaTest {
         Captcha captcha = new Captcha(1,1,1,1);
         Assert.assertEquals("1+one",captcha.toString());
     }
+
+    @Test
+    public void firstPatternLeftOperandShouldBe2(){
+        Captcha captcha = new Captcha(1,2,1,1);
+        Assert.assertEquals("2+one",captcha.toString());
+    }
+
+    @Test
+    public void firstPatternLeftOperandShoouldBe3(){
+        Captcha captcha = new Captcha(1,3,1,1);
+        Assert.assertEquals("3+one",captcha.toString());
+    }
+
 }
