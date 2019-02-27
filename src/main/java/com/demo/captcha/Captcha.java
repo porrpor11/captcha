@@ -27,6 +27,7 @@ public class Captcha {
 
         return String.format("%s %s %s",leftOperand,"+",rightOp);
     }
+    public String operand
 
     public int getPattern() {
         return pattern;

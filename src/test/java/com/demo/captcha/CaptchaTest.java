@@ -42,5 +42,10 @@ public class CaptchaTest {
         Captcha captcha = new Captcha(1,1,1,3);
         Assert.assertEquals("1 + Three",captcha.toString());
     }
+    @Test
+    public void firstStringOperandShouldBeOne(){
+        StringOperand stringOperand = new StringOperand(1);
+        Assert.assertEquals("One",stringOperand.toString());
+    }
 
 }
