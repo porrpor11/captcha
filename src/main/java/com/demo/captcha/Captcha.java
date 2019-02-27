@@ -17,12 +17,14 @@ public class Captcha {
 
     @Override
     public String toString(){
-        
+        return String.format("%s %s %s",leftOperand,"+","one");
+        /*
         if(this.getLeftOperand()==2){
             return "2+one";
         }
         else if (this.getLeftOperand()==3){ return "3+one";}
         else{return "1+one";}
+        */
     }
 
     public int getPattern() {
