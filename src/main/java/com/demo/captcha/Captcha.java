@@ -17,7 +17,7 @@ public class Captcha {
 
     @Override
     public String toString(){
-        return String.format("%s %s %s",leftOperand,"+","one");
+        return String.format("%s%s%s",leftOperand,"+","one");
         /*
         if(this.getLeftOperand()==2){
             return "2+one";
